@@ -4,29 +4,30 @@
 
 var texte = document.getElementById('main').innerHTML = "test";
 
-var boucle;
-while(var boucle<5)
+while( texte < 5)
 {
-    boucle=+5;
+    texte=+5;
 }
 
 
 document.getElementById('divInconnuAuBataillon').innerHTML = "ttttttttttttttttt";
 
-if(variableIconnueAuBataillon == 1)
+var variableInconnueAuBataillon = 0;
+
+if( variableInconnueAuBataillon === 1)
 {
-alert('connue');
+alert("connue");
 }
 else
 {
-    alert(inconnue);
+    alert("inconnue");
 }
 
 
-alert("Penser à ne pas oublier...);
+alert("Penser à ne pas oublier...");
 
 
-alert "certaines choses";
+alert ("certaines choses");
 
 
 

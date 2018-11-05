@@ -6,11 +6,11 @@
  */
 
 var ndiv = document.createElement('div');
-document.getElementByAd('main').appendChild(ndiv);
+document.getElementById('main').appendChild(ndiv);
 
-ndiv.style.largeur = 152+'px';
+ndiv.style.width= '152px';
 
-var "main" = document.getElementBYID(main);
-main.style.height = 956+'pixel';
+var main = document.getElementById('main');
+main.style.height = '956px';
 
-main.stile.display = 'block';
+main.style.display = 'block';
